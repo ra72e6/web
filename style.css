@@ -40,6 +40,11 @@ ul {
   height: 100%;
 }
 
+#time {
+  padding: 4px;
+  background-color: rgba(158, 98, 237, 0.804);
+}
+
 .navbar ul {
   display: flex;
   flex-direction: row;
