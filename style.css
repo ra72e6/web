@@ -9,6 +9,7 @@ body {
   line-height: 1.5;
   color: #333;
   background: linen;
+  text-align: center;
 }
 
 ul {
@@ -98,4 +99,24 @@ td {
   vertical-align: top; /* 위 */
   vertical-align: bottom; /* 아래 */
   vertical-align: middle; /* 가운데 */
+}
+
+.animate {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  align-items: center;
+}
+.transition {
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transition: width 2s, height 2s, background-color 2s;
+  align-items: center;
+}
+.transition:hover {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(228, 9, 122);
+  align-items: center;
 }

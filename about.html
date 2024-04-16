@@ -48,63 +48,42 @@
           <br />
           이메일: ra72e6@hanmail.net <br />
         </p>
-        <table>
+        <style>
+          @keyframes example {
+            from {background-color: red;}
+            to {background-color:  rgb(54, 47, 145);}
+          }
+        </style>
+          <div class="animate" style="width: 100px; height: 100px;"></div>
+        <body>
+          <div class="transition"></div>
+        </body>
+        <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
           <tr>
             <th scope="col">생일</td>
             <th scope="col">이름</td>
             <th scope="col">성별</td>
           </tr>
           <tr>
-            <td>12/08</td>
-            <td>김태현</td>
-            <td>남</td>
-          </tr>
-          <tr>
-            <td>06/29</td>
-            <td>최경은</td>
+            <td>2002.10.25</td>
+            <td>임혜준</td>
             <td>여</td>
           </tr>
         </table>
         <form>
           <fieldset>
-            <legend>배송 정보</legend>
+            <legend>방문자 정보</legend>
             <ul id="shipping">
-              <li>
-                <label for="prod">주문 상품</label>
-                <input type="text" id="prod" value="상품용 3KG" readonly />
-              </li>
               <li>
                 <label for="user-name">이름 </label>
                 <input type="text" id="user-name" autofocus required />
               </li>
               <li>
-                <label for="addr">배송 주소</label>
-                <input type="text" id="addr" required />
-              </li>
-              <li>
                 <label for="mail">이메일</label>
                 <input type="email" id="mail" />
               </li>
-              <li>
-                <label for="phone">연락처</label>
-                <input
-                  type="tel"
-                  id="phone"
-                  placeholder="하이픈 빼고 입력해 주세요.(01012345678)"
-                  required
-                />
-              </li>
-              <li>
-                <label for="d-day">배송 지정</label>
-                <input type="date" id="d-day" />
-                <small>(주문일로부터 최소 3일 이후)</small>
-              </li>
             </ul>
           </fieldset>
-          <div>
-            <input type="submit" value="주문하기" />
-            <input type="reset" value="취소하기" />
-          </div>
         </form>
       </div>
     </section>
