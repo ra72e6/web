@@ -110,13 +110,13 @@ td {
 .transition {
   width: 100px;
   height: 100px;
-  background-color: rgb(238, 255, 0);
+  background-color: red;
   transition: width 2s, height 2s, background-color 2s;
 }
 .transition:hover {
   width: 200px;
   height: 200px;
-  background-color: rgb(228, 9, 122);
+  background-color: yellow;
 }
 
 .profile-section {
